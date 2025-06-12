@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    font-size: 50px; color: blue;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:hsl(162, 85%, 29%);
+    padding: 0px; /*puts it to the complete left*/
+    margin: 0px;  /*puts it to the very top*/
+    overflow: hidden; /*hides extra things?*/
+}
+.navbar a{
+    color: white;
+    text-decoration: none;  /*gets rid of underline on the text*/
+    padding: 15px;          /*makes bar thicker and adds spaces between elements*/
+    display: block;         /*makes bar thicker?*/
+}
+.navbar a:hover{
+    background-color:hsl(151, 95%, 36%);
+}
+.navbar li{
+    float: left;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
