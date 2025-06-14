@@ -37,12 +37,16 @@ img {
   width: 50%;
 }
 
-table, th, td {
+table {
   border: 1px solid hsl(162, 85%, 29%);
   border-collapse: collapse;
-  padding:30px;
-  text-align: center;
+  padding:30px; 
   margin-left: auto;
   margin-right: auto;
 
+}
+
+th, td
+{
+    text-align:center;
 }
