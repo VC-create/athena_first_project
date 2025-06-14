@@ -37,14 +37,14 @@ img {
   width: 50%;
 }
 
-table, th,td {
+table.table1{
   border: 1px solid hsl(162, 85%, 29%);
   border-collapse: collapse;
   padding:30px;
-  text-align:center;
   margin-left:auto;
   margin-right:auto;
 }
+
 
 tr:nth-child(even) {
   background-color:hsl(147, 43%, 85%);
@@ -53,4 +53,14 @@ tr:nth-child(even) {
 tr:nth-child(odd)
 {
     background-color:hsl(204, 83%, 86%);
+}
+
+table.table2
+{
+    border: 1px solid hsl(162, 85%, 29%);
+    border-collapse: collapse;
+    padding:40px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
 }
