@@ -40,8 +40,17 @@ img {
 table, th,td {
   border: 1px solid hsl(162, 85%, 29%);
   border-collapse: collapse;
-  padding:30px; 
-  margin-left: auto;
-  margin-right: auto;
+  padding:30px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
 
+tr:nth-child(even) {
+  background-color:hsl(147, 43%, 85%);
+}
+
+tr:nth-child(odd)
+{
+    background-color:hsl(204, 83%, 86%);
 }
