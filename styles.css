@@ -70,8 +70,7 @@ th.table2, td.table2
 }
 
 
-
-/* Dropdown Button */
+/*dropdown*/
 .dropbtn {
   background-color: hsl(162, 85%, 29%);
   color: white;
@@ -80,12 +79,12 @@ th.table2, td.table2
   cursor: pointer;
 }
 
-/* Dropdown button on hover */
+
 .dropbtn:hover{
   background-color: hsl(151, 95%, 36%);
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -94,7 +93,7 @@ th.table2, td.table2
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
   color: black;
   padding: 20px 20px;
@@ -105,12 +104,12 @@ th.table2, td.table2
   font-size:20px;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {
   background-color: hsl(147, 71%, 67%);
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
 .show {
   display:block;
 }
@@ -125,15 +124,15 @@ h4
 
 /*for the flipcards*/
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
 .flip-card {
   background-color: transparent;
   width: 200px;
   height: 300px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner {
   width: 100%;
   height: 100%;
@@ -142,12 +141,12 @@ h4
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-card-front, .flip-card-back {
   position:absolute;
   width: 100%;
@@ -156,13 +155,13 @@ h4
   border: 2px solid black;
   border-style:dotted;
 }
-/* Style the front side (fallback if image is missing) */
+
 .flip-card-front {
   background-color: rgb(246, 246, 239);
   color: black;
 }
 
-/* Style the back side */
+
 .flip-card-back {
   background-color: hsl(164, 61%, 78%);
   color: black;
